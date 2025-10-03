@@ -16,6 +16,9 @@ public class IncrementDecrement {
 		  int c = a + b++ + x + y++;
 		  System.out.println(c+" "+b + " " + a + " " + x + " " + " " + y + " " + z);
 		  
+		  int d = ++z + ++y + x++; 
+		  System.out.println(d+" "+ x+ " "+ y+ "" + z+" ");
+		  
 		
 	}
 

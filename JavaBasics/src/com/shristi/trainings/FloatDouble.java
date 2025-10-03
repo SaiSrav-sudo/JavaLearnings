@@ -1,0 +1,19 @@
+package com.shristi.trainings;
+
+public class FloatDouble {
+
+	public static void main(String[] args) {
+		byte b = 100;
+		int x = b*2; //upcasting
+		
+		long y = x+2; //upcasting 
+		float a = x+y+b;
+		
+		double num = a*2;
+		System.out.println(num);
+		
+		
+
+	}
+
+}
